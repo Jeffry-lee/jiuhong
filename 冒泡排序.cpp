@@ -1,10 +1,12 @@
 #include<iostream>
 using namespace std;
-int main() {
+int main() 
+{
 	//利用冒泡排序为实现一个升序的序列
 	int arr[] = { 4,2,8,0,5,7,1,3,9 };
 	cout << "排序前：" << endl;
-	for (int i = 0; i < 9; i++) {
+	for (int i = 0; i < 9; i++) 
+	{
 		cout << arr[i] << " ";
 
 	}
@@ -26,7 +28,8 @@ int main() {
 	}
 	//排序后结果
 	cout << "排序后结果:" << endl;
-	for (int i = 0; i < 9; i++) {
+	for (int i = 0; i < 9; i++)
+	{
 		cout << arr[i] << " ";
 		
 	}cout << endl;
